@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "bemtech-aws-enterprise-eks-platform-terraform-backend"
-    key = "dev/terraform.tfstate"
-    region = "eu-west-3"
+    bucket       = "bemtech-aws-enterprise-eks-platform-terraform-backend"
+    key          = "dev/terraform.tfstate"
+    region       = "eu-west-3"
     use_lockfile = true
 
   }
